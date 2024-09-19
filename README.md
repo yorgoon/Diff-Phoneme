@@ -62,5 +62,5 @@ Rereference EEG signals using the common average method.
 To train the model on your dataset, run:
    ```bash
    python train.py
-
+   ```
 This will train the model using the provided EEG signals and corresponding phoneme sequences. During training, the model learns to predict phoneme sequences from EEG signals, enabling it to generate unseen words composed of familiar phonemes.
