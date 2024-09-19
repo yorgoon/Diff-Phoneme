@@ -46,3 +46,9 @@ These components work together to accurately decode phoneme sequences from EEG s
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
+
+## Usage
+
+### Data Preparation
+1. Data Acquisition:
+EEG data should be recorded using a 64-channel EEG system and preprocessed following a standard protocol (e.g., using EEGLAB for filtering and segmentation).
