@@ -52,3 +52,16 @@ These components work together to accurately decode phoneme sequences from EEG s
 ### Data Preparation
 1. Data Acquisition:
 EEG data should be recorded using a 64-channel EEG system and preprocessed following a standard protocol (e.g., using EEGLAB for filtering and segmentation).
+
+2. Signal Preprocessing:
+Resample signals to 500 Hz.
+Apply baseline correction.
+Rereference EEG signals using the common average method.
+
+### Training
+To train the model on your dataset, run:
+   ```bash
+   python train.py
+
+This will train the model using the provided EEG signals and corresponding phoneme sequences. During training, the model learns to predict phoneme sequences from EEG signals, enabling it to generate unseen words composed of familiar phonemes.
+
