@@ -42,3 +42,7 @@ These components work together to accurately decode phoneme sequences from EEG s
    ```bash
    git clone https://github.com/yorgoon/Diff-Phoneme.git
    cd Diff-Phoneme
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
